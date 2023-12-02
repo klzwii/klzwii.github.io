@@ -1,0 +1,27 @@
+baseURL = 'https://github.com/klzwii'
+languageCode = 'zh-CN'
+title = 'klzwii blog'
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "学习 思考 记录"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "klzwii's blog"
+  keywords = "homepage, blog"
+  images = [""]
