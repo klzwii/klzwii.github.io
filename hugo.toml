@@ -1,6 +1,6 @@
 baseURL = 'https://github.com/klzwii'
 languageCode = 'zh-CN'
-title = 'klzwii blog'
+title = "klzwii's blog"
 theme = "hello-friend-ng"
 
 [params]
@@ -25,3 +25,6 @@ theme = "hello-friend-ng"
   description = "klzwii's blog"
   keywords = "homepage, blog"
   images = [""]
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
