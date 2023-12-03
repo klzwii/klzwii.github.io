@@ -28,3 +28,12 @@ theme = "hello-friend-ng"
 [taxonomies]
   tag      = "tags"
   category = "categories"
+[params.logo]
+  logoMark     = ">"
+  logoText     = "$ go mod tidy && go build"
+  logoHomeLink = "/"
+[menu]
+[[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
