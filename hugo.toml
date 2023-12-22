@@ -2,6 +2,7 @@ baseURL = 'https://github.com/klzwii'
 languageCode = 'zh-CN'
 title = "klzwii's blog"
 theme = "hello-friend-ng"
+hasCJKLanguage = true
 
 [params]
   dateform        = "Jan 2, 2006"
