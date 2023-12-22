@@ -12,7 +12,7 @@ tags:
 ps-lite是一个分布式参数服务器，github地址为[ps-lite](https://github.com/dmlc/ps-lite)。该库通过几千行代码，实现了包含分布式节点管理，简单故障恢复，参数自定义分片的基于推送/拉取模式建议服务器。本文将自顶向下的对该项目进行分析，深入源码，了解具体实现原理并分析不足之处。  ps-lite集群拓普结构
 # 集群拓普
 <p align="center">
-  <img src="/images/network-topology.png" alt="ps-lite集群拓普结构">
+  <img src="../images/network-topology.png" alt="ps-lite集群拓普结构">
 </p>
 <p align="center">ps-lite集群拓普结构</p>  
 
@@ -24,7 +24,7 @@ ps-lite不支持协作者数量的动态增加和减少。虽然节点总数是�
 集群总体采用了Push/Pull的通信模型，即worker向server发送Push请求进行参数更新，Pull请求拉取当前参数。
 
 <p align="center">
-  <img src="/images/cluster-initial.png" alt="ps-lite节点流程">
+  <img src="../images/cluster-initial.png" alt="ps-lite节点流程">
 </p>
 <p align="center">ps-lite节点流程</p>  
 
@@ -45,7 +45,7 @@ Server会使用用户自定义的requestHandler对参数更新请求进行处理
 # 项目结构
 
 <p align="center">
-  <img src="/images/project-structure.png" alt="ps-lite节点流程">
+  <img src="../images/project-structure.png" alt="ps-lite节点流程">
 </p>
 <p align="center">项目结构</p>
 

@@ -37,3 +37,5 @@ theme = "hello-friend-ng"
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+[markup.goldmark.renderer]
+  unsafe= true
